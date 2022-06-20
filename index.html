@@ -2,46 +2,67 @@
 <html>
 <head>
 <title>Cadastro de Peixes</title>
+<link rel="stylesheet" href="mystyle.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
-<body>
+    <body>
+        <ul>
+            <li><a href="#cpeixes">Cadastro de Peixes</a></li>
+            <li><a href="#peixesc">Peixes Cadastrados</a></li>
+            <li><a href="#rpassagens">Registro de Passagens</a></li>
+            <li><a href="#status">Status das Antenas</a></li>
+        </ul> 
 
-<h2>Dados de cadastro dos peixes</h2>
-<p>Insert the data:</p>
+        <h2>Dados de cadastro dos peixes</h2>
+        <center><img src="https://lh3.googleusercontent.com/8Xj8KH1pMtF54B1xzRQ9ka0KEMuIhneWxVnLcxtLA4IsRCDU8-BgZ8Y0Oi6Yp-K9XhRKaYnrvZpusyzGsqZ97fg=s400" 
+            alt="Tilápia" ></center>
+        
+        <div class="container">
+            <p>Insira os dados:</p>
 
-<form>
-    <label for="pittag">Pittag:</label>
-    <input type="text" id="pittag" name="pittag">
+            <form>
+                <center>
+                <label for="pittag">Pittag:</label>
+                <input type="text" id="pittag" name="pittag"><br>
 
-    <label for="sname">Nome Científico da Espécie:</label>
-    <input type="text" id="sname" name="sname"><br>
+                <label for="sname">Nome Científico da Espécie:</label>
+                <input type="text" id="sname" name="sname"><br>
 
-    <label for="slength">Comprimento Padrão:</label>
-    <input type="number" id="slength" name="slength">
+                <label for="slength">Comprimento Padrão:</label>
+                <input type="number" id="slength" name="slength"><br>
 
-    <label for="tlength">Comprimento Total:</label>
-    <input type="number" id="tlength" name="tlength"><br>
+                <label for="tlength">Comprimento Total:</label>
+                <input type="number" id="tlength" name="tlength"><br>
 
-    <label for="clocation">Local de Captura:</label>
-    <input type="text" id="clocation" name="clocation">
+                <label for="clocation">Local de Captura:</label>
+                <input type="text" id="clocation" name="clocation"><br>
 
-    <label for="rweight">Peso na soltura:</label>
-    <input type="number" id="rweight" name="rweight"><br>
+                <label for="rweight">Peso na soltura:</label>
+                <input type="number" id="rweight" name="rweight"><br>
 
-    <label for="rdate">Data da soltura:</label>
-    <input type="datetime-local" id="rdate" name="rdate">
+                <label for="rdate">Data da soltura:</label>
+                <input type="datetime-local" id="rdate" name="rdate"><br>
 
-    <label for="rlocation">Local da soltura:</label>
-    <input type="text" id="rlocation" name="rlocation"><br>
+                <label for="rlocation">Local da soltura:</label>
+                <input type="text" id="rlocation" name="rlocation"><br>
 
-    <label for="dna">DNA Sample:</label>
-    <input type="text" id="dna" name="dna">
+                <label for="dna">DNA Sample:</label>
+                <input type="text" id="dna" name="dna"><br>
 
-    <label for="recapture">Recapture:</label>
-    <input type="checkbox" id="recapture" name="recapture"><br>
+                <label for="recapture">Recapture:</label>
+                <input type="checkbox" id="recapture" name="recapture"><br>
 
-    <input type="submit" value="Salvar">
+                <input type="submit" value="Salvar"></center>
+                
+            </form>
+        </div>
 
-  </form>
-  
-</body>
+        <footer>
+            <p>Autores: Felipe Andrande, Nícolas König e Lídia Stadtlober.<br>
+            <a href="@example">Contato</a></p>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
 </html>
